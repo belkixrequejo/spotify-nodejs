@@ -6,6 +6,6 @@ module.exports = () => {
     user: 'usuario',
     password: 'contraseña',
     database: 'nombre de la base de datos',
-    port: el que es el tuyo
+    port: ''
   });
 }
