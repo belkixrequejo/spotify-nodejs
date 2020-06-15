@@ -8,7 +8,7 @@
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "Aaron Jaramillo Mera",
+  "author": "Belkix Requejo Micolta",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
