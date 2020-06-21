@@ -1,4 +1,0 @@
-node_modules
-src/configs/dbConnection.js
-src/configs/server.js
-package-lock.json

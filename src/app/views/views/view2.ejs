@@ -2,7 +2,7 @@
 <html html lang="es">
   <head>
     <meta charset="utf-8" />
-    <title>Canciones mas escuchadas</title>
+    <title>Vistas</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
@@ -11,25 +11,23 @@
     />
   </head>
   <body>
-    <%- include('../home/header.ejs') %>
+    <%- include('../home/vistas.ejs') %>
 
     <div class="row">
       <div class="col-md-6 mt-4 text-center">
         <table class="table table-striped table-bordered">
           <tr>
-            <th>Titulo</th>
+            <th>Cancion</th>
             <th>Album</th>
             <th>Artista</th>
-            <th>Cantidad de veces escuchando</th>
-            <th>Cantidad de usuariosl</th>
+            <th>Cantidad de reproducciones</th>
           </tr>
-          <% for (var i = 0; i < reporte1.length; i ++) { %>
+          <% for (var i = 0; i < view2.length; i ++) { %>
           <tr>
-            <td><%- reporte1[i].Nombre_Cancion %></td>
-            <td><%- reporte1[i].Nombre_Disco %></td>
-            <td><%- reporte1[i].Nombre_Artista %></td>
-            <td><%- reporte1[i].Numero_Visitas %></td>
-            <td><%- reporte1[i].Id_Usuario %></td>
+            <td><%- view2[i].nombreCancion %></td>
+            <td><%- view2[i].nombreAlbum %></td>
+            <td><%- view2[i].nombreArtista %></td>
+            <td><%- view2[i].cantReproducciones %></td>
           </tr>
           <% } %>
         </table>
